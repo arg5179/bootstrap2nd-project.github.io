@@ -1,0 +1,344 @@
+
+body{
+    font-family: "Ubuntu";
+}
+
+
+
+
+/*--------------------------------- Navigation section --------------------------------- */
+
+#title{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+
+.navbar{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding:1.125rem;
+    text-align: center;
+}
+
+.navbar-nav li{
+    padding: 0.625rem;
+}
+
+.shortcuts{
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    
+}
+
+.shortcuts:hover{
+    color: rgb(32, 9, 32);
+}
+
+.navbar-toggler{
+    outline: none;
+}
+
+
+/*--------------------------------- Banner section --------------------------------- */
+
+.Top-container{
+    margin: 0 3rem;
+
+}
+
+
+#banner{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: white;
+    padding-top: 5%;
+}
+
+.promo-title{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 6.25rem;
+}
+
+.play-btn{
+    width: 2.813rem;
+    margin: 1.25rem auto;
+}
+
+#banner a{
+    color: white;
+    text-decoration: none;
+}
+
+.bottom-img{
+    width: 100%;
+}
+
+
+
+/*--------------------------------- Services section --------------------------------- */
+
+
+.row{
+    margin-right: 0;
+}
+
+#services{
+    padding: 8rem 3rem 4rem;
+    text-align: center;
+}
+
+.service-img{
+    width: 6.25rem;
+    margin-top: 1.25rem;
+}
+
+.title{
+    font-weight: 600;
+}
+
+.services-column{
+    padding: 1.25rem;
+}
+
+.services-column h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.services-column p{
+    font-family: "Ubuntu";
+}
+
+.title::before{
+    content: "";
+    background: #5f1782;
+    font-family: "Monrserrat";
+    height: 3px;
+    width: 350px;
+    margin: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after{
+    content: "";
+    background: #5f1782;
+    font-family: "Monrserrat";
+    height: 10px;
+    width: 70px;
+    margin: auto;
+    display: block;
+    transform: translateY(8px);
+}
+
+
+#services .btn-primary{
+    margin-top: 10px;
+    box-shadow: none;
+    padding: 8px auto;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+#services .btn-primary:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+
+/*--------------------------------- About section --------------------------------- */
+
+#about{
+    padding: 8rem 0 2rem;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.title{
+    font-weight: 600;
+}
+
+.title::before{
+    content: "";
+    background: #5f1782;
+    font-family: "Monrserrat";
+    height: 3px;
+    width: 420px;
+    margin: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after{
+    content: "";
+    background: #5f1782;
+    font-family: "Monrserrat";
+    height: 10px;
+    width: 80px;
+    margin: auto;
+    display: block;
+    transform: translateY(8px);
+}
+
+.about-column h4{
+    padding: 5px;
+    margin-top: 8%;
+    font-weight: 600;
+}
+
+.about-column{
+    padding: 1.25rem;
+}
+
+.about-column ul{
+    margin-left: 11rem;
+    text-align: center;
+}
+
+.about-column ul li{
+    margin: 10px 0;
+    padding: auto 2rem;
+    font-family: "Ubuntu";
+    font-weight: 500;
+    text-align: left;
+}
+
+@media(max-width:1028px){
+    .about-column ul{
+        margin-left: 4rem;
+        text-align: center;
+    }
+
+    .about-column ul li{
+        text-align: left;
+    }
+    
+    .about-column h4{
+        padding-left: 2rem;
+    }
+}
+
+
+
+
+/*--------------------------------- Testimonial section --------------------------------- */
+
+#testimonials{
+    margin: 50px 10px;
+    text-align: center;
+    padding: 8rem 0 2rem;
+}
+
+.testimonial-column{
+    border-left: 4px solid #5f1782;
+    text-align: left;
+    margin: 50px 10px;
+}
+
+.testimonial-column img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.user-details{
+    display: inline-block;
+    font-size: large;
+}
+
+
+
+/*--------------------------------- Social media section --------------------------------- */
+
+#social-media{
+    text-align: center;
+    background: #f8f9fa;
+    padding: 8rem 0 2rem;
+}
+
+#social-media p{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icons img{
+    width: 80px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+
+
+/*--------------------------------- Footer section --------------------------------- */
+
+#footer{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: white;
+}
+
+.footer-img{
+    width: 100%;
+}
+
+
+.footer-column{
+    padding: 40px 80px;
+}
+
+.footer-column img{
+    margin-bottom: 20px;
+}
+
+.contact-icon{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.footer-column .form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-column .btn-primary{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 20px;
+    margin-top: 25px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.footer-column .btn-primary:hover{
+    color: white;
+    font-weight: bold;
+}
+
+hr{
+    background-color: white;
+    width: 80%;
+}
+
+.copyright{
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
